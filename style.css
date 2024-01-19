@@ -1,0 +1,145 @@
+/* navbar style */
+:root{
+    --1-color : #048853;
+}
+
+:root{
+    --2-color : white;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:white;
+    
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link{
+    font-size: 16px;
+}
+
+.nav-link.active{
+    font-weight: 700;
+}
+
+.button-primary1{
+    width: 133px;
+    height: 40px;
+    background-color:green;
+    color: #fff!important;
+   
+    border: 12;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.button-primary2{
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: var(--1-color);
+    border: 12;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.btnicon{
+    border: none;
+    background-color: transparent;
+    color: var(--1-color);
+} 
+
+/* kategori tag */
+.row-container {
+    background-color: #fff;
+}
+
+/* kategori style */
+.img-categori {
+    width: 50px;
+}
+.img-categori{
+    transform: scale(1.2);
+    transition: 0,2s;
+}
+
+/* produk */
+.card:hover{
+    border: 1px solid green;
+}
+
+/* hero style */
+/* #hero{
+    background: linear-gradient(160deg, var(--1-color), #000);
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero{
+    height: 100%;
+}
+
+.hero-tagline h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+} */
+
+.footer{
+    padding-block: 50px;
+    padding-bottom: 25px;
+    background-color: yellow;
+    color: bisque;
+}
+
+.footer__container{
+    max-width: 1160px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.footer__top{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+}
+
+.footer__title{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__list-link:hover {
+    color: #fff;
+}
+
+.footer__divider{
+    margin-block: 25px;
+    border: none;
+    border-top: 1px solid rgba(252, 255, 255, 0.1);
+}
+
+.footer_bootom{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;   
+}
+
+.footer__list-bottom{
+    flex-direction: row;
+}

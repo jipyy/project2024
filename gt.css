@@ -1,0 +1,338 @@
+body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  h1 {
+    color: #4e5150;
+    margin-bottom: 15px;
+  }
+  
+  .products-container {
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    padding: 5% 2%;
+  }
+  
+  .first-product {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+  }
+  
+  .img {
+    width: 130px;
+  }
+  
+  img {
+    width: 100%;
+    border-radius: 13px;
+  }
+  
+  .details p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #4e5150;
+    margin-bottom: 0;
+  }
+  
+  .details-prices {
+    font-weight: 600;
+  }
+  
+  .details-prices span:nth-child(1) {
+    font-size: 14px;
+    color: #f2994a;
+  }
+  
+  .details-prices span:nth-child(2) {
+    font-size: 10px;
+    text-decoration: line-through;
+    margin-left: 7px;
+  }
+  
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .units {
+    display: flex;
+    border: 1px solid #828282;
+    border-radius: 10%;
+    justify-content: space-between;
+    padding: 10%;
+  }
+  
+  .units span:nth-child(1),
+  .units span:nth-child(3) {
+    color: #828282;
+    background: #e0e0e0;
+    padding: 1% 10%;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 2;
+    border-radius: 5px;
+  }
+  
+  .units span:nth-child(2) {
+    font-weight: 600;
+  }
+  
+  .totals-shipping,
+  .totals-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0;
+    /* border-top: 1px solid #000; */
+    border-top: 1px solid #bdbdbd;
+    font-weight: 600;
+  }
+  
+  .totals {
+    margin-top: 70px;
+    padding: 0 4%;
+  }
+  
+  .contact-info {
+    margin-bottom: 10px;
+    padding: 5% 2%;
+  }
+  
+  h3 {
+    margin-bottom: 5px;
+  }
+  
+  .inputs {
+    margin-top: 3px;
+  }
+  
+  .input-icons {
+    margin-top: 10px;
+  }
+  
+  .input-icons span {
+    font-size: 10px;
+    color: #4f4f4f;
+    font-weight: 600;
+  }
+  
+  .shipping {
+    margin-top: 20px;
+  }
+  
+  .label-mail,
+  .label-tel,
+  .label-name,
+  .label-address,
+  .label-city,
+  .label-country,
+  .label-postal {
+    position: relative;
+  }
+  
+  .label-mail:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 19px;
+    opacity: 0.5;
+    background: url(./svg/003-email.svg);
+  }
+  
+  .label-tel:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 19px;
+    opacity: 0.5;
+    background: url(./svg/002-call.svg);
+  }
+  
+  .label-name:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 19px;
+    opacity: 0.5;
+    background: url(./svg/001-profile-user.svg);
+    background-size: contain;
+  }
+  
+  .label-address:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 19px;
+    opacity: 0.5;
+    background: url(./svg/004-home-icon-silhouette.svg);
+    background-size: contain;
+  }
+  
+  .label-city:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 19px;
+    opacity: 0.5;
+    background: url(./svg/005-building.svg);
+  }
+  
+  .label-country:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 19px;
+    opacity: 0.5;
+    background: url(./svg/005-building.svg);
+  }
+  
+  .label-postal:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 19px;
+    opacity: 0.5;
+    background: url(./svg/006-mailbox.svg);
+    background-size: contain;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-indent: 40px;
+    border: 1px solid #828282;
+  }
+  
+  .input-shared {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-shared input {
+    text-indent: 30px;
+  }
+  
+  .input-country {
+    width: 90%;
+  }
+  
+  .check {
+    display: flex;
+    margin-top: 7px;
+  }
+  
+  .label-check {
+    display: block;
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 10px;
+    color: #4f4f4f;
+  }
+  
+  .check input {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    overflow: hidden;
+  }
+  
+  button {
+    background: #f2994a;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 5% 10%;
+    border-color: transparent;
+    letter-spacing: 0.6px;
+    margin-right: 0;
+    margin-bottom: 40px;
+    margin-left: auto;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  footer {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: #bdbdbd;
+    margin-bottom: 15px;
+  }
+  
+  @media screen and (min-width: 700px) {
+    h1 {
+      margin-bottom: 0px;
+      margin-left: 25px;
+    }
+  
+    .checkout {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-evenly;
+    }
+  
+    .products-container {
+      align-self: center;
+      margin: 0;
+      padding: 2% 2%;
+    }
+  
+    .product-details {
+      padding-left: 12px;
+    }
+  
+    .totals {
+      margin-top: 15px;
+    }
+  
+    .contact-info {
+      padding: 0;
+    }
+  
+    .totals-shipping {
+      font-size: 12px;
+    }
+  
+    button {
+      padding: 2.5% 5%;
+      margin-bottom: 20px;
+      margin-right: 50px;
+    }
+  
+    button:hover {
+      background: #f17a12f6;
+      border-color: #fff;
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    button {
+      padding: 2% 5%;
+    }
+  }
